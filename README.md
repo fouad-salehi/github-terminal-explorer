@@ -9,13 +9,13 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Node](https://img.shields.io/badge/Node.js-%3E%3D18-brightgreen)
 
-## Description
-
 GitHub Terminal Explorer is a command-line tool built with Node.js that allows developers to explore GitHub users, repositories, activity, and trending projects directly from their terminal.
 
 Instead of switching between multiple browser pages, GitHub Terminal Explorer provides a convenient way to retrieve and display GitHub information through simple terminal commands.
 
 The tool uses the GitHub API to collect public information and presents it in readable, organized terminal output.
+
+## Description
 
 GitHub Terminal Explorer currently provides:
 
@@ -29,17 +29,49 @@ GitHub Terminal Explorer currently provides:
 - GitHub account token configuration
 - CLI configuration management
 
-## Requirements
+## Installation
 
-- [Node.js](https://nodejs.org/) v18 or higher
-- npm
-- Internet connection
-- A GitHub account is optional for accessing public information
-- A GitHub Personal Access Token is recommended for higher API rate limits
+GitHub Terminal Explorer is available through npm, GitHub Packages, and its public GitHub repository.
 
-## Getting Started
+### Option 1: Install from npm (Recommended)
 
-### Install from Source
+The easiest way to install GitHub Terminal Explorer is through the npm registry.
+
+```bash
+npm install -g github-terminal-explorer-tools
+```
+
+After installation, the `ghx` command will be available globally.
+
+Verify the installation:
+
+```bash
+ghx --help
+```
+
+Check the installed version:
+
+```bash
+ghx --version
+```
+
+**npm Package:** [github-terminal-explorer-tools](https://www.npmjs.com/package/github-terminal-explorer-tools)
+
+### Option 2: Install from GitHub Packages
+
+You can also install GitHub Terminal Explorer from GitHub Packages.
+
+```bash
+npm install -g @fouad-salehi/github-terminal-explorer
+```
+
+**GitHub Package:** [@fouad-salehi/github-terminal-explorer](https://github.com/users/fouad-salehi/packages/npm/package/github-terminal-explorer)
+
+Depending on your npm configuration and package access settings, GitHub Packages may require additional registry authentication.
+
+### Option 3: Install from Source
+
+If you want to explore the source code, contribute, or modify the project, you can install it directly from GitHub.
 
 Clone the repository:
 
@@ -59,9 +91,7 @@ Install dependencies:
 npm install
 ```
 
-### Link the CLI Globally
-
-To use the `ghx` command from any directory, run:
+Link the CLI globally:
 
 ```bash
 npm link
@@ -73,11 +103,9 @@ Verify the installation:
 ghx --help
 ```
 
-If the CLI displays its available commands, the installation was successful.
-
 ### Run Without Global Installation
 
-You can also run the project directly:
+You can also run the project directly from its source directory:
 
 ```bash
 npm start
@@ -88,6 +116,22 @@ Or:
 ```bash
 node bin/ghx.js
 ```
+
+### Which Installation Method Should You Choose?
+
+| Installation Method | Recommended For |
+| :--- | :--- |
+| npm | Most users who want to use the CLI |
+| GitHub Packages | Users who prefer GitHub's package registry |
+| GitHub Source | Developers who want to explore or modify the source code |
+
+## Requirements
+
+- Node.js v18 or higher
+- npm
+- Internet connection
+- A GitHub account is optional for accessing public information
+- A GitHub Personal Access Token is recommended for higher API rate limits
 
 ## CLI Usage
 
@@ -475,6 +519,11 @@ GitHub Terminal Explorer is designed to make GitHub information more accessible 
 ## Repository
 
 [github-terminal-explorer](https://github.com/fouad-salehi/github-terminal-explorer)
+
+## Package Registries
+
+- [npm Registry](https://www.npmjs.com/package/github-terminal-explorer-tools)
+- [GitHub Packages](https://github.com/users/fouad-salehi/packages/npm/package/github-terminal-explorer)
 
 ## License
 

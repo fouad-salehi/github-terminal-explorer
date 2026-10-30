@@ -1,0 +1,39 @@
+{
+  "name": "github-terminal-explorer-tools",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A command-line tool to explore GitHub users, repositories, and statistics.",
+  "main": "src/index.js",
+  "bin": {
+    "ghx": "bin/ghx.js"
+  },
+  "scripts": {
+    "start": "node bin/ghx.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "github",
+    "cli",
+    "terminal",
+    "octokit",
+    "developer-tools"
+  ],
+  "author": "Fouad Salehi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fouad-salehi/github-terminal-explorer.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@octokit/rest": "^21.1.1",
+    "boxen": "^8.0.1",
+    "chalk": "^5.4.1",
+    "cli-table3": "^0.6.5",
+    "commander": "^13.1.0",
+    "conf": "^14.0.0",
+    "ora": "^8.2.0"
+  }
+}

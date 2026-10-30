@@ -1,4 +1,4 @@
-# GITHUB TERMINAL EXPLORER
+# github-terminal-explorer
 
 ![Version](https://img.shields.io/badge/version-1.0.0-important)
 ![Platform](https://img.shields.io/badge/platform-Node.js-green)

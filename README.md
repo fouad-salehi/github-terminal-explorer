@@ -1,13 +1,13 @@
 # github-terminal-explorer
 
-![Version](https://img.shields.io/badge/version-1.0.0-important)
-![Platform](https://img.shields.io/badge/platform-Node.js-green)
-![Language](https://img.shields.io/badge/language-JavaScript-yellow)
-![Purpose](https://img.shields.io/badge/purpose-GitHub%20Explorer-blue)
-![CLI](https://img.shields.io/badge/CLI-ghx-blue)
-![Registry](https://img.shields.io/badge/registry-npm-CB3837?logo=npm)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Node](https://img.shields.io/badge/Node.js-%3E%3D18-brightgreen)
+![Version](https://img.shields.io/badge/version-1.0.0-important?style=for-the-badge)
+![Platform](https://img.shields.io/badge/platform-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Language](https://img.shields.io/badge/language-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Purpose](https://img.shields.io/badge/purpose-GitHub%20Explorer-181717?style=for-the-badge&logo=github&logoColor=white)
+![CLI](https://img.shields.io/badge/CLI-ghx-4B5563?style=for-the-badge)
+![Registry](https://img.shields.io/badge/registry-npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-22C55E?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
+![Node](https://img.shields.io/badge/Node.js-%3E%3D18-339933?style=for-the-badge&logo=node.js&logoColor=white)
 
 GitHub Terminal Explorer is a command-line tool built with Node.js that allows developers to explore GitHub users, repositories, activity, and trending projects directly from their terminal.
 
